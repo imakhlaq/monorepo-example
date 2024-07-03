@@ -12,3 +12,4 @@
 3. Configure tsconfig.json, build the project, login to the npm => `npm login`
 4. Publish the package to npm `npm publish --access=public`.
 5. Everytime you publish a new package u have to update the version.
+6. `npm pack` creates a zip file that contains what will be sent to the npm.
