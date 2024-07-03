@@ -1,0 +1,31 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@imakhlaq/common':
+        specifier: ^1.0.1
+        version: 1.0.1
+
+packages:
+
+  '@imakhlaq/common@1.0.1':
+    resolution: {integrity: sha512-/df78K7eS7ZV+YY13hnMlrQ621IW+zItFlX5PRpH8SIJfW1susH0hQ/kyn0qKKGL8PtStwyc/jZU+RyXJls/nw==}
+
+  typescript@5.5.3:
+    resolution: {integrity: sha512-/hreyEujaB0w76zKo6717l3L0o/qEUtRgdvUBvlkhoWeOVMjMuHNHk0BRBzikzuGDqNmPQbg5ifMEqsHLiIUcQ==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+snapshots:
+
+  '@imakhlaq/common@1.0.1':
+    dependencies:
+      typescript: 5.5.3
+
+  typescript@5.5.3: {}
