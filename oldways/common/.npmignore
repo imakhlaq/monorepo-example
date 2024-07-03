@@ -1,0 +1,4 @@
+# Things that u dont want in you package
+
+src
+node_modules
